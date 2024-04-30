@@ -1,0 +1,68 @@
+body {
+    background-color: chartreuse;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashd black;
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: white;   
+    font-size: 1.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color:hsl(from black 0 0 20%)
+}
+
+button:active {
+    background-color: hsl(from black 0 0 30%);
+}
+
+.main {
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dadJoke {
+    text-decoration: line-through;
+}
+
+.card {
+    display: grid;
+    background-color: lightgray;
+    /* border: 1px solid black; */
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+    
+}
+
+.withButton {
+    background-color: lightgray;
+    /* border: 1px solid black; */
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.jokeDisplay {
+    text-align: center;
+    /* border: 1px solid black; */
+    justify-content: center;
+    justify-self: center;
+    width: 100%;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace
+}
